@@ -1,23 +1,17 @@
-/* * {
+* {
   color: #292929;
   background-color: #f0f0f0;
-  font-family: 'Wotfard', Arial, sans-serif; 
+  font-family: 'GenericMobileSystem', Arial, sans-serif; 
 }
 
 @font-face{ 
-font-family: 'Wotfard';
-src: url('./assets/Wotfard/wotfard-regular-webfont.eot');
-src: url('./assets/Wotfard/wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
-     url('./assets/Wotfard/wotfard-regular-webfont.woff2') format('woff'),
-     url('./assets/Wotfard/wotfard-regular-webfont.ttf') format('truetype'),
+font-family: 'GenericMobileSystem';
+src: url('./assets/GenMobileSys/GenericMobileSystem.ttf') format('truetype'),
+     url('./assets/GenMobileSys/GenericMobileSystemNuevo.ttf') format('truetype'),
+     url('./assets/GenMobileSys/GenericMobileSystemO.ttf') format('truetype'),
+     url('./assets/GenMobileSys/GenericMobileSystemNuevoO.ttf') format('truetype')
 }
-
-body {
-  margin: 10px;
-  padding: 0;
-  color-scheme: light dark;
-  }
 
 a {
   text-decoration: none;
-} */
+}
