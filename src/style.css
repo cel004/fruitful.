@@ -1,0 +1,23 @@
+/* * {
+  color: #292929;
+  background-color: #f0f0f0;
+  font-family: 'Wotfard', Arial, sans-serif; 
+}
+
+@font-face{ 
+font-family: 'Wotfard';
+src: url('./assets/Wotfard/wotfard-regular-webfont.eot');
+src: url('./assets/Wotfard/wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('./assets/Wotfard/wotfard-regular-webfont.woff2') format('woff'),
+     url('./assets/Wotfard/wotfard-regular-webfont.ttf') format('truetype'),
+}
+
+body {
+  margin: 10px;
+  padding: 0;
+  color-scheme: light dark;
+  }
+
+a {
+  text-decoration: none;
+} */
