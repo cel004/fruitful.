@@ -8,6 +8,10 @@ function Login(){
             <div className={styles.sodaImage}>
                 <img src={melonSodaImage} alt="Pixel art of japanese melon cream soda"/> 
             </div>
+            <div className={styles.title}>
+                <p>Save-a-Sip</p>
+            </div>
+            <p>font constant</p>
         </header>
     )
 }

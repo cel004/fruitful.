@@ -4,6 +4,11 @@
     background-color: #ecf0e6;
 }
 
+@font-face{ 
+    font-family: 'KiwiSoda';
+    src: url('../assets/KiwiSoda.ttf') format('truetype')
+    }
+
 body {
     display: flex;
     justify-content: center;
@@ -23,3 +28,7 @@ img {
     max-width: 100vw;
 }
 
+.title p {
+    font-family: 'KiwiSoda';
+    font-size: 3rem;
+}
