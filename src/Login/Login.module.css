@@ -16,7 +16,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url('../assets/fruitful_grapes.png');
+    background-image: url('../assets/fruitful_grapes.png'), linear-gradient(#d82d66b6 5%, #d82d663a 40%, #ffffff 80%);
     background-position: center;
     background-size: 177%;
     margin-bottom: 1rem;
