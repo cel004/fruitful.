@@ -35,8 +35,9 @@ function Login() {
                             required
                         />
                     </label>
-                    <button type="submit">Log in</button>
+                    <button type="submit">log in</button>
                 </form>
+                <a href ="#" className={styles.createAccount}>create an account</a>
             </div>
         </header>
     );

@@ -18,6 +18,7 @@ body {
     background-image: url('../assets/fruitful_grapes.png');
     background-position: center;
     background-size: 177%;
+    margin-bottom: 1rem;
 }
 
 .titleContainer p {
@@ -37,6 +38,7 @@ body {
     margin-bottom: 0.5rem;
     margin-top: -0.9rem;
     color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.651);
 }
 
 form {
@@ -49,22 +51,34 @@ form {
 
 
 input[type="text"], input[type="password"],
-input[type="text"], input[type="email"]
+input[type="text"], input[type="email"],
+button[type=submit]
 {
     text-align: center;
     border-radius: 10px;
-    padding: 0.3rem 0.3rem;
-    font-size: 1rem;
+    padding: 0.3rem 1.4rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.651);
     background-color: #ffffff;
     border: none;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.651);
 }
 
 button[type=submit] {
-    padding: 0.2rem 1rem;
     border-radius: 5px;
-    font-size: 1rem;
-    border: none;
-    background-color: #ffffff;
+    margin-top: 0.3rem;
+    padding: 0.2rem 1.2rem;
+    font-size: 0.8rem;
+}
+
+.createAccount {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.651);
 }
 
 
