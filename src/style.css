@@ -1,15 +1,13 @@
 * {
   color: #292929;
   background-color: #f0f0f0;
-  font-family: 'GenericMobileSystem', Arial, sans-serif; 
+  font-weight: 500;
+  font-family: 'Quicksand', Arial, sans-serif; 
 }
 
 @font-face{ 
-font-family: 'GenericMobileSystem';
-src: url('./assets/GenMobileSys/GenericMobileSystem.ttf') format('truetype'),
-     url('./assets/GenMobileSys/GenericMobileSystemNuevo.ttf') format('truetype'),
-     url('./assets/GenMobileSys/GenericMobileSystemO.ttf') format('truetype'),
-     url('./assets/GenMobileSys/GenericMobileSystemNuevoO.ttf') format('truetype')
+font-family: 'Quicksand';
+src: url('./assets/Fonts/Quicksand-VariableFont_wght.ttf') format('truetype')
 }
 
 a {

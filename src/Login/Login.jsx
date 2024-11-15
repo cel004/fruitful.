@@ -2,8 +2,8 @@ import styles from './Login.module.css'
 import { useState } from 'react';
 
 function Login() {
-    const [email, setEmail] = useState('Enter your email');
-    const [password, setPassword] = useState('Enter your password');
+    const [email, setEmail] = useState('enter your email');
+    const [password, setPassword] = useState('enter your password');
 
     const submitButton = (e) => {
         e.preventDefault();
@@ -14,9 +14,9 @@ function Login() {
     return (
         <header>
             <div className={styles.titleContainer}>
-                <p>Save-a-Sip</p>
+                <p>fruitful.</p>
             </div>
-            <p className ={styles.slogan}>Small savings, sweet rewards</p>
+            <p className ={styles.slogan}>small savings, sweet rewards</p>
             <div className={styles.formContainer}>
                 <form onSubmit={submitButton}>
                     <label>
