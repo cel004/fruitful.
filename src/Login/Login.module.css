@@ -66,6 +66,10 @@ button[type=submit]
     box-shadow: 1px 1px rgba(0, 0, 0, 0.651);
 }
 
+input:focus {
+    outline: none;
+}
+
 button[type=submit] {
     border-radius: 5px;
     margin-top: 0.3rem;

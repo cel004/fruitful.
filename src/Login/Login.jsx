@@ -2,8 +2,8 @@ import styles from './Login.module.css'
 import { useState } from 'react';
 
 function Login() {
-    const [email, setEmail] = useState('enter your email');
-    const [password, setPassword] = useState('enter your password');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
     const submitButton = (e) => {
         e.preventDefault();
@@ -24,6 +24,7 @@ function Login() {
                             type="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
+                            placeholder="enter your email"
                             required
                         />
                     </label>
@@ -32,6 +33,7 @@ function Login() {
                             type="password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
+                            placeholder="enter your password"
                             required
                         />
                     </label>
