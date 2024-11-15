@@ -22,7 +22,7 @@ body {
     background-color: rgb(222, 255, 222);
 }
 
-.title p {
+.titleContainer p {
     font-family: 'KiwiSoda';
     font-size: 2.1rem;
     background: none;
