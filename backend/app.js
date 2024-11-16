@@ -1,6 +1,6 @@
-const express = require('express');
-const bcrypt = require('bcrypt');
-const db = require('./database');
+import express from 'express';
+import bcrypt from 'bcrypt';
+import con from './db_connection.js';
 const app = express();
 
 app.use(express.json()); // middleware to parse incoming JSON requests
@@ -10,7 +10,7 @@ app.post('/api/register', (req, res) => {
   const { email, password } = req.body;
 
   // checks if email already exists in the database
-  db.query('SELECT * FROM users WHERE email = ?', [email], (err, results) => {
+  con.query('SELECT * FROM users WHERE email = ?', [email], (err, results) => {
     if (err) {
       return res.status(500).json({ status: 'error', message: 'Server error' });
     }
@@ -25,7 +25,7 @@ app.post('/api/register', (req, res) => {
       }
 
       // insert new user into the database
-      db.query('INSERT INTO users (email, password) VALUES (?, ?)', [email, hashedPassword], (err, results) => {
+      con.query('INSERT INTO users (email, password) VALUES (?, ?)', [email, hashedPassword], (err, results) => {
         if (err) {
           return res.status(500).json({ status: 'error', message: 'Error registering user' });
         }
@@ -48,7 +48,7 @@ app.post('/api/login', (req, res) => {
   const { email, password } = req.body;
 
   // checks if email exists in the database
-  db.query('SELECT * FROM users WHERE email = ?', [email], (err, results) => {
+  con.query('SELECT * FROM users WHERE email = ?', [email], (err, results) => {
     if (err) {
       return res.status(500).json({ status: 'error', message: 'Server error' });
     }

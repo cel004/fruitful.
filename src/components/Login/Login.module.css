@@ -30,48 +30,7 @@
     text-shadow: 2px 2px rgba(0, 0, 0, 0.651);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-    align-items: center;
-    justify-items: center;
-}
-
-
-input[type="text"], input[type="password"], 
-input[type="email"], button[type=submit]
-{
-    text-align: center;
-    border-radius: 10px;
-    padding: 0.3rem 1.6rem;
-    font-weight: 600;
-    font-size: 0.8rem;
-    color: rgba(0, 0, 0, 0.651);
-    background-color: #ffffff;
-    border: none;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.651);
-}
-
-input:focus {
-    outline: none;
-}
-
-button[type=submit] {
-    border-radius: 5px;
-    margin-top: 0.4rem;
-    padding: 0.2rem 1.2rem;
-    font-size: 1rem;
-}
-
-button[type="submit"]:hover {
-    background-color: #e05389;
-    color: #ffffff;
-    box-shadow: none;
-    transition: background-color 0.5s ease;
-}
-
-.createAccount, a {
+ .createAccount, a {
     display: flex;
     justify-content: center;
     margin-top: 0.5rem;
@@ -86,15 +45,14 @@ button[type="submit"]:hover {
     text-shadow: none;
     transition: color 0.5s ease;
 }
-
-/* @media(min-width: 0px){
+@media(min-width: 0px){
     input[type="text"], input[type="password"],
     input[type="text"], input[type="email"],
     button[type=submit]{
         font-size: 1.2rem;
         margin: 0.2rem;
     }
-} */
+}
 
 @media(min-width: 1024px){
     input[type="text"], input[type="password"],
