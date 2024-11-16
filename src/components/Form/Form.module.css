@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    justify-items: center;
+}
+
+
+input[type="password"], 
+input[type="email"], 
+button[type=submit]
+{
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.4rem 1.8rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.651);
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.651);
+}
+
+input:focus {
+    outline: none;
+}
+
+button[type=submit] {
+    border-radius: 5px;
+    margin-top: 0.4rem;
+    padding: 0.2rem 1.2rem;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #e05389;
+    color: #ffffff;
+    box-shadow: none;
+    transition: background-color 0.5s ease;
+}
+
+.createAccount, a {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.651);
+}
+
+.createAccount:hover a {
+    color: #ff9ed6;
+    font-weight: 800;
+    text-shadow: none;
+    transition: color 0.5s ease;
+}
