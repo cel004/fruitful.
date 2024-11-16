@@ -1,7 +1,6 @@
-import styles from './Login.module.css'
+import styles from './Login.module.css';
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
-
+import { Link } from 'react-router-dom';
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -13,33 +12,34 @@ function Login() {
         console.log('Form submitted:', { email });
     };
 
+    // validation for enabling/disabling login button
+    const isFormValid = email.trim() !== '' && password.trim() !== '';
+
     return (
         <header>
             <div className={styles.titleContainer}>
                 <p>fruitful.</p>
             </div>
-            <p className ={styles.slogan}>small savings, sweet rewards</p>
+            <p className={styles.slogan}>small savings, sweet rewards</p>
             <div className={styles.formContainer}>
                 <form onSubmit={submitButton}>
-                    <label>
                         <input
                             type="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             placeholder="enter your email"
                             required/>
-                    </label>
-                    <label>
                         <input
                             type="password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             placeholder="enter your password"
                             required/>
-                    </label>
-                    <button type="submit">log in</button>
+                    <button type="submit" disabled={!isFormValid}>log in</button>
                 </form>
-                <p className={styles.createAccount}><Link to="/register">create an account</Link></p>
+                <p className={styles.createAccount}>
+                    <Link to="/register">create an account</Link>
+                </p>
             </div>
         </header>
     );

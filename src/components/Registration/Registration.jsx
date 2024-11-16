@@ -4,18 +4,10 @@ import { Link } from 'react-router-dom'
 
 function Registration() {
     const [formData, setFormData] = useState({
-        name: '',
+        username: '',
         email: '',
         password: '',
-        confirmPassword: '',
     });
-
-    const [errors, setErrors] = useState({
-        username: false,
-        email: false,
-        password: false,
-        confirmPassword: false
-      });
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -25,7 +17,10 @@ function Registration() {
         }));
       };
 
-
+      const isFormValid =
+      formData.username.trim() !== '' &&
+      formData.email.trim() !== '' &&
+      formData.password.trim() !== '';
 
       const handleSubmit = async (e) => {
         e.preventDefault();
@@ -85,18 +80,9 @@ function Registration() {
               placeholder="enter password"
               required/>
           </div>
-          <div>
-            <input
-              type="password"
-              name="confirmPassword"
-              value={formData.confirmPassword}
-              onChange={handleInputChange}
-              placeholder="confirm password"
-              required/>
-          </div>
-          <button type="submit">register</button>
+          <button type="submit" disabled={!isFormValid}>register</button>
         </form>
-        <p className={styles.logIn}><Link to="/login">log into account</Link></p>
+        <p className={styles.login}><Link to="/login">log into account</Link></p>
       </>
     );
   };
