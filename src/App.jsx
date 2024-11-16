@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './Home/Home.jsx'
-import Login from './components/Login/Login.jsx'
 import Registration from './components/Registration/Registration.jsx'
+import Login from './components/Login/Login.jsx'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 
 
@@ -12,7 +12,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Registration/Registration.jsx" component = {<Registration/>}/>
+        <Route path="/register" element={<Registration />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
     

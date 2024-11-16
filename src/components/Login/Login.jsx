@@ -10,7 +10,7 @@ function Login() {
     const submitButton = (e) => {
         e.preventDefault();
         // Handle form submission here
-        console.log('Form submitted:', { name, email });
+        console.log('Form submitted:', { email });
     };
 
     return (
@@ -27,8 +27,7 @@ function Login() {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             placeholder="enter your email"
-                            required
-                        />
+                            required/>
                     </label>
                     <label>
                         <input
@@ -36,12 +35,11 @@ function Login() {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             placeholder="enter your password"
-                            required
-                        />
+                            required/>
                     </label>
                     <button type="submit">log in</button>
                 </form>
-                <p className={styles.createAccount}><Link to="/Registration">create an account</Link></p>
+                <p className={styles.createAccount}><Link to="/register">create an account</Link></p>
             </div>
         </header>
     );
