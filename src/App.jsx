@@ -1,10 +1,10 @@
-import Home from './Home/Home.jsx'
+import Welcome from './Welcome/Welcome.jsx'
 
 function App() {
 
   return(
     <>
-    <Home />
+    <Welcome />
     </>
     
   );

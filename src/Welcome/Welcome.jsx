@@ -1,7 +1,7 @@
-import styles from './Home.module.css'
+import styles from './Welcome.module.css'
 import Login from '../components/Login/Login.jsx'
 
-function Home(){
+function Welcome(){
     return (
         <>
         <Login></Login>
@@ -9,4 +9,4 @@ function Home(){
     )
 }
 
-export default Home;
+export default Welcome;
