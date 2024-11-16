@@ -27,7 +27,7 @@ function Registration() {
 
     // send POST request to mysql server to create a new user
     try {
-        const response = await fetch('/api/register', {  // mysql API endpoint
+        const response = await fetch('http://localhost:5000/api/register', {  // mysql API endpoint
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

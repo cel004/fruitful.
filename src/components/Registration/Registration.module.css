@@ -43,14 +43,6 @@ button[type=submit] {
     border: 2px solid red;
 } */
 
-button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
 .login:hover a {
     color: #ff9ed6;
     font-weight: 800;
@@ -61,7 +53,7 @@ button {
 button[type="submit"]:hover {
     background-color: #e05389;
     color: #ffffff;
-    box-shadow: none;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.651);
     transition: background-color 0.5s ease;
 }
 
