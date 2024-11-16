@@ -1,5 +1,7 @@
 import styles from './Login.module.css'
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
+
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -39,10 +41,10 @@ function Login() {
                     </label>
                     <button type="submit">log in</button>
                 </form>
-                <a href ="..\Registration\Registration.jsx" className={styles.createAccount}>create an account</a>
+                <p className={styles.createAccount}><Link to="/Registration">create an account</Link></p>
             </div>
         </header>
     );
 }
 
-export default Login
+export default Login;
