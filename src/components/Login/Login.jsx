@@ -39,7 +39,7 @@ function Login() {
                     </label>
                     <button type="submit">log in</button>
                 </form>
-                <a href ="#" className={styles.createAccount}>create an account</a>
+                <a href ="..\Registration\Registration.jsx" className={styles.createAccount}>create an account</a>
             </div>
         </header>
     );
