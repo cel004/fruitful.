@@ -1,8 +1,10 @@
 import express from 'express';
 import bcrypt from 'bcrypt';
 import con from './db_connection.js';
+import cors from 'cors';
 const app = express();
 
+app.use(cors());
 app.use(express.json()); // middleware to parse incoming JSON requests
 
 // registration route
