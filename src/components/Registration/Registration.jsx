@@ -48,7 +48,7 @@ function Registration() {
   return (
     <div className={styles.registrationContainer}>
       <p className={styles.title}>Register</p>
-        <form onSubmit={handleSubmit} className={styles.form}>
+        <div onSubmit={handleSubmit} className={styles.form}>
         <p className={styles.slogan}>create your account to start saving</p>
         <Form
           formData={formData}
@@ -57,7 +57,7 @@ function Registration() {
           buttonText="register"
           isFormValid={isFormValid}
         />
-        </form>
+        </div>
         <p className={styles.login}><Link to="/login">login here</Link></p>
     </div>
   );

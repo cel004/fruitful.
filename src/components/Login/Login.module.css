@@ -7,7 +7,7 @@
 
 @font-face{ 
     font-family: 'MADECarvingSoft';
-    src: url('../../assets/Fonts/MADECarvingSoft.ttf') format('truetype');
+    src: url('/assets/Fonts/MADECarvingSoft.ttf') format('truetype');
 }
 
 .titleContainer p {

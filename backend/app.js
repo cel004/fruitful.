@@ -81,6 +81,11 @@ app.post('/api/login', (req, res) => {
   });
 });
 
+// http://localhost:3001/api/test 
+app.post('/api/test', (req, res) => {
+  res.status(200).send('POST request to /api/test received');
+});
+
 // start the server
 // POST http://localhost:3001/api/login = success
 // POST http://localhost:3001/api/register = success
