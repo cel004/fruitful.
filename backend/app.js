@@ -79,7 +79,9 @@ app.post('/api/login', (req, res) => {
   });
 });
 
-// Start the server
+// start the server
+// POST http://localhost:3001/api/login = success
+// POST http://localhost:3001/api/register = success
 app.listen(3001, () => {
   console.log('Server is running on port 3001');
 });
