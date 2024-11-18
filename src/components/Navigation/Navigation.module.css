@@ -1,0 +1,18 @@
+.navigationContainer {
+    background-color: #ec5a8b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem 0; 
+    margin-bottom: auto;
+    gap: 2rem;
+}
+
+.navigationIcon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 10%;
+}
+

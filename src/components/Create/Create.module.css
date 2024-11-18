@@ -1,0 +1,16 @@
+.createButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px; 
+    height: 70px;
+    border-radius: 70% 70% 0 0; 
+    background-color: #ec5a8b; 
+    color: white; 
+    cursor: pointer; /* Adds a pointer cursor on hover */
+}
+
+.createButton svg {
+    margin-bottom: 1rem;
+}
+

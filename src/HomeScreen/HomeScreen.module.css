@@ -12,10 +12,26 @@ body {
     background: linear-gradient(#d82d66b6 10%, #d82d663a 50%, #ffffff 80%);
 }
 
-.homeContainer {
+.mainContent {
+    flex-grow: 1; 
+}
+
+.pageWrapper {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    min-height: 100vh;
 
+}
+
+.footer {
+    width: 100%;
+}
+
+.createButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -2rem;
 }
