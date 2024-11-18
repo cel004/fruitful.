@@ -3,9 +3,11 @@ import styles from './Home.module.css'
 
 function Home(){
     return (
-        <>
-        <p>test</p>
-        </>
+        <div className={styles.homeContainer}>
+            <p>welcome to home page</p>
+
+
+        </div>
     )
 }
 
