@@ -1,16 +1,21 @@
+
+.piechartContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+}
+
 .piechart {
-    width: 90%;
-    height: 90%;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 5px solid #ffffff;
     background-color: transparent;
 }
 
-.piechartContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    background-color: transparent;
-  }
+.budget {
+    padding-top: 1rem;
+    color: #ec5a8b;
+}

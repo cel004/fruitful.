@@ -1,0 +1,22 @@
+.goalContainer {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.goalCard {
+    padding: 1rem ;
+    width: 80vw;
+    border-radius: 14px;
+    background-color: #ec5a8b;
+}
+
+.goalInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.remaining {
+    margin-left: auto;
+}
