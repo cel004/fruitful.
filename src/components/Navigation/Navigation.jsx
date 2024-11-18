@@ -3,7 +3,7 @@ import { Card } from '../icons/iconCard.jsx';
 import { Home } from '../icons/iconHome.jsx';
 import { Piechart } from '../icons/iconPiechart.jsx';
 
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
     return (

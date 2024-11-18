@@ -6,7 +6,7 @@ import Form from '../Form/Form.jsx'
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const navigate = useNavigate(); // hook for navigation
+    const navigate = useNavigate(); // hook for navigation to redirect
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
