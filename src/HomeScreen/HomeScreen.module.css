@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#d82d66b6 10%, #d82d663a 50%, #ffffff 80%);
+}
+
+.homeContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

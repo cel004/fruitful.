@@ -5,7 +5,7 @@
     background-color: transparent;
 }
 
-.title {
+.titleContainer p {
     padding-top: 0.95rem;
     text-align: center;
     font-size: 4rem;
@@ -23,6 +23,7 @@
     padding-bottom: 0.7rem;
     color: #ffffff;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.651);
+    margin-bottom: -0.1rem;
 }
 
 .login{

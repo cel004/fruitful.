@@ -1,8 +1,8 @@
 import styles from './TitleScreen.module.css'
-import Login from '../Login/Login.jsx'
+import Login from '../components/Login/Login.jsx'
 
 
-function Home(){
+function TitleScreen(){
     return (
         <>
         <Login></Login>
@@ -10,4 +10,4 @@ function Home(){
     )
 }
 
-export default Home;
+export default TitleScreen;

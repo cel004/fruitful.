@@ -31,7 +31,7 @@ function Login() {
 
             if (response.ok && data.status === 'success') {
                 console.log('Login successful:', data);
-                navigate('/home'); // redirects to home page after successful login
+                navigate('/homescreen'); // redirects to home page after successful login
             } else {
                 console.error('Login failed:', data.message);
                 alert('Login failed: ' + data.message);

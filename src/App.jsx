@@ -1,25 +1,22 @@
 import React from 'react';
-import Home from './Home/Home.jsx'
-import Registration from './components/Registration/Registration.jsx'
-import Titlescreen from './components/Titlescreen/Titlescreen.jsx'
-import Login from './components/Login/Login.jsx'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 
-
+import HomeScreen from './HomeScreen/HomeScreen.jsx';
+import Registration from './components/Registration/Registration.jsx';
+import Titlescreen from './TitleScreen/TitleScreen.jsx';
+import Login from './components/Login/Login.jsx';
 
 function App() {
-
-  return(
+  return (
     <Router>
       <Routes>
         <Route path="/" element={<Titlescreen />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Registration />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/homescreen" element={<HomeScreen />} />
       </Routes>
     </Router>
-    
   );
 }
 
-export default App
+export default App;

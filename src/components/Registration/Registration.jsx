@@ -47,7 +47,9 @@ function Registration() {
 
   return (
     <div className={styles.registrationContainer}>
-      <p className={styles.title}>Register</p>
+      <div className={styles.titleContainer}>
+        <p>Register</p>
+        </div>
         <div onSubmit={handleSubmit} className={styles.form}>
         <p className={styles.slogan}>create your account to start saving</p>
         <Form

@@ -3,16 +3,9 @@
     padding: 0;
     overflow: hidden;
     background-color: transparent;
-    width: 100vw;
-    height: 100vh;
 }
 
 body {
-    background: linear-gradient(#d82d66b6 5%, #d82d663a 40%, #ffffff 80%) !important;
-}
-
-.homeContainer {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
