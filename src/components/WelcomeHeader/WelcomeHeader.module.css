@@ -3,10 +3,37 @@
     padding: 0;
     overflow: hidden;
     background-color: transparent;
+    color: #ffffff;
 }
 
 body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainer{
+    margin: 1rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    width: 13%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-left: auto;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
