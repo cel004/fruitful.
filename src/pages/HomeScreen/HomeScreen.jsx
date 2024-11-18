@@ -1,9 +1,9 @@
 import styles from './HomeScreen.module.css'
-import WelcomeHeader from '../components/WelcomeHeader/WelcomeHeader';
-import Piechart from '../components/Piechart/Piechart';
-import Goal from '../components/Goal/Goal';
-import Navigation from '../components/Navigation/Navigation';
-import Create from '../components/Create/Create';
+import WelcomeHeader from '../../components/WelcomeHeader/WelcomeHeader';
+import Piechart from '../../components/Piechart/Piechart';
+import Goal from '../../components/Goal/Goal';
+import Navigation from '../../components/Navigation/Navigation';
+import Create from '../../components/Create/Create';
 
 
 function HomeScreen(){

@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 
-import HomeScreen from './HomeScreen/HomeScreen.jsx';
+import HomeScreen from './pages/HomeScreen/HomeScreen.jsx';
 import Registration from './components/Registration/Registration.jsx';
-import Titlescreen from './TitleScreen/TitleScreen.jsx';
+import Titlescreen from './pages/TitleScreen/TitleScreen.jsx';
 import Login from './components/Login/Login.jsx';
 
 function App() {

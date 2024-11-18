@@ -1,5 +1,5 @@
 import styles from './TitleScreen.module.css'
-import Login from '../components/Login/Login.jsx'
+import Login from '../../components/Login/Login.jsx'
 
 
 function TitleScreen(){
