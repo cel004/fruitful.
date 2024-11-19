@@ -12,15 +12,7 @@ body {
     background: linear-gradient(#d82d66b6 10%, #d82d663a 50%, #ffffff 80%);
 }
 
-.mainContent {
-    flex-grow: 1; 
-}
 
-.pageWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    min-height: 100vh;
-}
+
+
 
