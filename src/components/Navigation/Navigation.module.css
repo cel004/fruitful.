@@ -16,3 +16,14 @@
     width: 10%;
 }
 
+.footer {
+    width: 100%;
+}
+
+.createButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -2rem;
+}
+
