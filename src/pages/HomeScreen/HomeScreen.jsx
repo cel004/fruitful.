@@ -3,7 +3,6 @@ import WelcomeHeader from '../../components/WelcomeHeader/WelcomeHeader';
 import Piechart from '../../components/Piechart/Piechart';
 import Goal from '../../components/Goal/Goal';
 import Navigation from '../../components/Navigation/Navigation';
-import Create from '../../components/Create/Create';
 
 
 function HomeScreen(){
@@ -16,12 +15,7 @@ function HomeScreen(){
                 <Piechart />
                 <Goal />
             </main>
-            <footer className={styles.footer}>
-                <div className={styles.createButton}>
-                    <Create />
-                    </div>
                 <Navigation />
-            </footer>
         </div>
         
     );
