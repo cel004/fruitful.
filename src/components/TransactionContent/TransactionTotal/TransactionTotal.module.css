@@ -1,0 +1,13 @@
+.totalContainer {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.totalCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+}

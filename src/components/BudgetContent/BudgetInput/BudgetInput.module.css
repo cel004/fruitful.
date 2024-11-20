@@ -1,0 +1,18 @@
+.inputContainer{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.inputField {
+    text-align: center;
+    border-radius: 12px;
+    padding: 0.2rem 1.8rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.651);
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.651);
+}
