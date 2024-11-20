@@ -1,13 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 
-import HomeScreen from './pages/HomeScreen/HomeScreen.jsx';
+//pages
+import Homescreen from './pages/Homescreen/Homescreen.jsx';
 import Transactions from './pages/Transactions/Transactions.jsx';
 import Personal from './pages/Personal/Personal.jsx';
 import Budget from './pages/Budget/Budget.jsx';
-import Registration from './components/Registration/Registration.jsx';
 import Titlescreen from './pages/TitleScreen/TitleScreen.jsx';
-import Login from './components/Login/Login.jsx';
+
+//components
+import Login from './components/LoginForm/Login/Login.jsx';
+import Registration from './components/LoginForm/Registration/Registration.jsx';
 
 function App() {
   return (
@@ -16,7 +19,7 @@ function App() {
         <Route path="/" element={<Titlescreen />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Registration />} />
-        <Route path="/homescreen" element={<HomeScreen />} />
+        <Route path="/homescreen" element={<Homescreen />} />
         <Route path="/transactions" element={<Transactions />} />
         <Route path="/budget" element={<Budget />} />
         <Route path="/personal" element={<Personal />} />

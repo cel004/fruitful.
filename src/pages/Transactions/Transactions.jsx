@@ -1,13 +1,16 @@
-import styles from './Transactions.module.css';
-import Navigation from '../../components/Navigation/Navigation';
+import styles from './Transactions.module.css'
+import PageContainer from '../../components/Containers/PageContainer';
+import TransactionCard from '../../components/TransactionCard/TransactionCard';
 
-function Transactions() {
+
+
+function Transactions(){
+    document.body.style.backgroundImage = "none";
+    document.body.style.backgroundImage = "linear-gradient(#d82d66b6 10%, #d82d663a 50%, #ffffff 80%)";
     return (
-        <div className={styles.pageWrapper}>
-            <div className={styles.navigationContainer}>
-                <Navigation />
-                </div>
-        </div>
+        <PageContainer>
+            <TransactionCard />
+        </PageContainer>
         
     );
 }
