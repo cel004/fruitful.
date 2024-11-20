@@ -1,0 +1,14 @@
+.icon {
+    display: flex;
+    width: 13%;
+    height: auto;
+    margin: 1rem 1rem 1rem auto;
+}
+
+/* .personContainer{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */

@@ -23,14 +23,6 @@ body {
     align-items: center;
 }
 
-.icon {
-    display: flex;
-    width: 13%;
-    height: auto;
-    margin-bottom: 1rem;
-    margin-left: auto;
-}
-
 .quote {
     display: flex;
     flex-direction: column;
