@@ -1,18 +1,34 @@
 .inputContainer{
+    width: 100vw;
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    align-items: center;
+    gap: 1rem;
 }
 
 .inputField {
+    width: 60vw;
     text-align: center;
     border-radius: 12px;
-    padding: 0.2rem 1.8rem;
+    padding: 0.3rem 1rem;
     font-weight: 600;
     font-size: 0.8rem;
     color: rgba(0, 0, 0, 0.651);
     background-color: #ffffff;
     border: none;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.651);
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: -0.7rem;
+}
+
+.description {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.651);
 }

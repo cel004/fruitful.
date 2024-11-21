@@ -13,3 +13,9 @@ src: url('./assets/Fonts/Quicksand-VariableFont_wght.ttf') format('truetype')
 a {
   text-decoration: none;
 }
+
+body {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow-y: auto;
+}
